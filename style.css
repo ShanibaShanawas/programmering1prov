@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+
+
+body {
+    background-color: #efeaf3;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    position: fixed;
+    background-color: rgba(0, 153, 255, 0.5);
+    width: 100%;
+    padding: 15px;
+}
+
+.navigation > .link .link {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navigation > .link .link a {
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .call-to-action {
+        background-image: url("https://www.publicdomainpictures.net/pictures/260000/nahled/yoga-woman-sunset-beach.jpg");
+        height: 40em;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .call-to-action h1, h3 {
+        color: #b0befa;
+        text-align: center;
+        margin: 0;
+    
+    }
+    
+    .content {
+        margin: 100px 10px;
+    
+    }
+    .content .tagline {
+        text-align: center;
+        font-size: 2em;
+    }
+    #about .about img {
+        max-width: 400px;
+        height: auto;
+    
+    }
+    
+    #about .about p {
+        font-size: 30px;
+    }
+    #attractions .attractions img {
+        padding-left: 0;
+    
+    }
+    #attractions .attractions li img {
+        display: inline;
+    }
+    #contact .contact-links {
+        padding: 40px;
+    
+    }
+    #contact .contact-links a {
+        color: #000;
+        text-decoration: none;
+        font-size: 30px;
+        margin: 10px;
+    }
+    footer {
+        padding: 10px;
+        background-color: #17694a;
+        text-align: right;
+        color: #ffff;
+    
+    }
+    body,* {
+        margin: o;
+    }
+    main{
+        width: 960px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    #enter {
+        padding: 20px;
+    }
+    
+    .denied {
+        background-color:#e74c3c;
+        color: #FFF;
+    }
+    
+    .granted {
+        background-color: rgb(247, 216, 77);
+        color: #FFF;
+    }
+    
